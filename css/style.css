@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto+Condensed:wght@300&family=Secular+One&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content-container {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #0C164D , #190B22);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 4rem;
+    padding-right: 3rem;
+    font-size: 1.5rem;
+}
+.title {
+    font-family: 'Secular One', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.subtitle {
+    color: #FFD029;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.planets-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    height: 80%;
+    color: #fff;
+}
+
+.planet-Solen {
+    position: absolute;
+    background-color: #FFD029;
+    height: 550px;
+    width: 230px;
+    border-radius: 100%;
+    left: -10rem;
+    cursor: pointer;
+}
+.planet-Merkurius {
+    background-color: #888888;
+    padding: .5rem;
+    border-radius: 100%;
+    margin: 0 6rem 0 10rem;
+    cursor: pointer;
+}
+.planet-Venus {
+    background-color: #E7CDCD;
+    padding: 1.1rem;
+    border-radius: 100%;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.planet-Jorden {
+    background-color: #428ED4;
+    padding: 1.2rem;
+    border-radius: 100%;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.planet-Mars {
+    background-color: #EF5F5F;
+    padding: .5rem;
+    border-radius: 100%;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.planet-Jupiter {
+    background-color: #E29468;
+    padding: 5rem;
+    border-radius: 100%;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.planet-Saturnus {
+    background-color: #C7AA72;
+    padding: 4rem;
+    border-radius: 100%;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.ellipse {
+    position: absolute;
+    left: 53rem;
+    transform: rotate(-30deg);
+    background-color: #fff;
+    opacity: 40%;
+    width: 218.23px;
+    height: 5.5px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+.planet-Uranus {
+    background-color: #C9D4F1;
+    padding: 2rem;
+    border-radius: 100%;
+    margin-right: 6rem;
+    cursor: pointer;
+}
+.planet-Neptunus {
+    background-color: #7A91A7;
+    padding: 2rem;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.planet-information-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+    height: 100%;
+}
+
+
+.text-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 600px;
+    height: 100vh;
+}
+
+.planet-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 5px;
+    padding-bottom: .5rem;
+}
+.latin-name {
+    color: #FFD029;
+    text-transform: uppercase;
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    letter-spacing: .5rem;
+    padding-bottom: 2rem;
+}
+.info-paragraph {
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1.1rem;
+    line-height: 30px;
+}
+.hr {
+    margin: 2rem 0;
+    opacity: 20%;
+}
+h4 {
+    color: #fff;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    text-transform: uppercase;
+}
+.first-box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.info {
+    color: #fff;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing: 2px;
+    padding-top: .5rem;
+    padding-bottom: 2rem;
+}
+
+.overlay-Solen {
+    background-image: linear-gradient(to right, #FFD029 , #c7b23c);
+}
+.overlay-Venus {
+    padding-top: 20rem;
+    background-image: linear-gradient(to right, #dcdcdc , #979797);
+}
+.overlay-Jorden {
+    padding-top: 10rem;
+    background-image: linear-gradient(to right, #0C164D , #190B22);
+}
+.overlay-Merkurius {
+    background-image: linear-gradient(to right, #7e7e7e , #41413f);
+}
+.overlay-Mars {
+    background-image: linear-gradient(to right, #be6b6b , #bc3838);
+}
+.overlay-Jupiter {
+    background-image: linear-gradient(to right, #E29468 , #c2913c);
+}
+.overlay-Saturnus {
+    background-image: linear-gradient(to right, #C7AA72 , #d2b47f);
+}
+.overlay-Uranus {
+    background-image: linear-gradient(to right, #C9D4F1 , #8ba8e3);
+}
+.overlay-Neptunus {
+    background-image: linear-gradient(to right, #7A91A7 , #495d86);
+}
+/* .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    background: url(http://www.script-tutorials.com/demos/360/images/stars.png)
+        repeat top center;
+} */
+
