@@ -113,8 +113,8 @@ const appendContent = () => {
         const moons = document.querySelector('.moons');
         moons.textContent = clickedPlanet.moons.join(", ");
 
-        //const eclipes = document.querySelector('eclipse-style');
-
         planetPage.classList.add(`overlay-${clickedPlanet.name}`);
+        const eclipes = document.querySelector('.eclipse-style');
+        eclipes.classList.add(`eclipse-${clickedPlanet.name}`)
     }
 }

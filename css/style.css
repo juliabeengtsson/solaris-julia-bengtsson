@@ -50,10 +50,10 @@
 .planet-Solen {
     position: absolute;
     background-color: #FFD029;
-    height: 550px;
-    width: 230px;
+    height: 800px;
+    width: 800px;
     border-radius: 100%;
-    left: -10rem;
+    left: -43rem;
     cursor: pointer;
 }
 .planet-Merkurius {
@@ -136,10 +136,118 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: scroll;
     height: 100%;
+    position: relative;
 }
 
+.eclipse-Solen {
+    position: absolute;
+    left: -52rem;
+    background-color: #FFD029;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #96812c4a;
+    box-shadow: 3rem 1px 1px #c99f167c;
+}
+.eclipse-Merkurius {
+    position: absolute;
+    left: -52rem;
+    background-color: #888888;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #63615b4a;
+    box-shadow: 3rem 1px 1px #6e6e6b44;
+}
+.eclipse-Venus {
+    position: absolute;
+    left: -52rem;
+    background-color: #E7CDCD;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #e6c3c3;
+    box-shadow: 3rem 1px 1px #dbb4b4;
+}
+.eclipse-Jorden {
+    position: absolute;
+    left: -52rem;
+    background-color: #428ED4;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #04162671;
+    box-shadow: 3rem 1px 1px #072c5292;
+}
+.eclipse-Mars {
+    position: absolute;
+    left: -52rem;
+    background-color: #EF5F5F;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #d65959;
+    box-shadow: 3rem 1px 1px #c24e4e;
+}
+.eclipse-Jupiter {
+    position: absolute;
+    left: -52rem;
+    background-color: #E29468;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #d5804f;
+    box-shadow: 3rem 1px 1px #c87341;
+}
+.eclipse-Saturnus {
+    position: absolute;
+    left: -52rem;
+    background-color: #C7AA72;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #bd9b56;
+    box-shadow: 3rem 1px 1px #c7a356b6;
+}
+.eclipse-Uranus {
+    position: absolute;
+    left: -52rem;
+    background-color: #8498ca;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #97aadb;
+    box-shadow: 3rem 1px 1px #aab8e0;
+}
+.eclipse-Neptunus {
+    position: absolute;
+    left: -52rem;
+    background-color: #7A91A7;
+    padding: 10rem;
+    border-radius: 100%;
+    height: 1000px;
+    width: 1000px;
+    top: -6rem;
+    border: 3rem solid #6382a0;
+    box-shadow: 3rem 1px 1px #537696;
+}
 
 .text-information {
     display: flex;
@@ -200,15 +308,17 @@ h4 {
 }
 
 .overlay-Solen {
-    background-image: linear-gradient(to right, #FFD029 , #c7b23c);
+    background-image: linear-gradient(to right, #ebcd5f , #baa52a);
 }
 .overlay-Venus {
     padding-top: 20rem;
-    background-image: linear-gradient(to right, #dcdcdc , #979797);
+    background-image: linear-gradient(to right, #E7CDCD , #d2a6a6);
+    overflow: scroll;
 }
 .overlay-Jorden {
     padding-top: 10rem;
     background-image: linear-gradient(to right, #0C164D , #190B22);
+    overflow: scroll;
 }
 .overlay-Merkurius {
     background-image: linear-gradient(to right, #7e7e7e , #41413f);
@@ -228,16 +338,13 @@ h4 {
 .overlay-Neptunus {
     background-image: linear-gradient(to right, #7A91A7 , #495d86);
 }
-/* .stars {
+.stars {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
     height: 100%;
-    display: block;
+    width: 100%;
     background: url(http://www.script-tutorials.com/demos/360/images/stars.png)
         repeat top center;
-} */
+}
 
